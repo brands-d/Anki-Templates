@@ -1,0 +1,55 @@
+.card {
+ font-family: Yu Mincho;
+ font-size: 50px;
+ text-align: center;
+ color: #FFFFFFFB;
+ background-color: #121212FF;
+}
+
+.card.nightMode {
+ background-color: #000000FF;
+}
+
+.top {
+ background-color: #303030FF;
+ border-radius: 10px;
+ padding-top: 10px;
+}
+
+ruby rt { 
+ font-size: 20px;
+ visibility: visible; 
+} 
+
+hr {
+ border: none;
+ margin: 5px;
+}
+
+.meaning {
+ background-color: #FFFFFFFB;
+ color: #303030FF;
+ font-size: 35px;
+
+ border-radius: 7px;
+
+ text-align: left;
+ padding-left: 20px;
+ padding-top: 7px;
+ padding-bottom: 7px;
+}
+
+.translation {
+ display: inline;
+}
+
+.note {
+ font-size: 30px;
+ display: inline;
+}
+
+.sentence {
+ font-size: 25px;
+ padding-top: 5px;
+ padding-bottom: 10px;
+}
