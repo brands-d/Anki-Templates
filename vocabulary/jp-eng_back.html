@@ -1,8 +1,13 @@
 <div class=top>
 
-<div class=expressionback>
+<div class=expression>
 {{furigana:Expression}}
 </div>
+{{#Synonym}}
+<div class=synonym>
+/{{furigana:Synonym}}
+</div>
+{{/Synonym}}
 
 {{#Sentence}}
 <div class=sentence>
@@ -16,6 +21,7 @@
 
 <div class=meaning>
 
-<div class=translation>{{Translation}}</div> {{#Note}}<div class=note>({{Note}})</div>{{/Note}}
+<div class=translation>{{Translation}}
+</div> {{#Note}}<div class=note>({{Note}})</div>{{/Note}}
 
 </div>
