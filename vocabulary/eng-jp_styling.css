@@ -40,11 +40,18 @@ hr {
 }
 
 .translation {
- display: inline;
 }
 
 .note {
  font-size: 30px;
+ display: inline;
+}
+
+.expression {
+ display: inline;
+}
+
+.synonym {
  display: inline;
 }
 
